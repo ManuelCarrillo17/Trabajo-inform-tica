@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('/proyecto web1.HTML/Foto-21-7-15-12-06-13.jpg');
+      background-size: cover
+      color: white;
+    }
+    a {
+      color: green;
+    }
+    h1 {
+      font-size: 200px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid red;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(4, 0, 2, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 50px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+        background: green;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/proyecto web1.HTML/Foto-21-7-15-12-06-13.jpg">
+    <h1>Blog de Manu</h1>
+    <ul>
+      <li><a href="#">Información personal</a></li>
+      <li><a href="#">Titulaciones</a></li>
+      <li><a href="#">Email para contactar</a></li>
+    </ul>
+  </header>
+  <button>Like</button>
+  <article>
+  <h2>ESTUDIOS</h2>
+  <p>Titulado de la ESO, actualmente estudiante de Segundo de Bachillerato. Titulado en un C1 de inglés.</p>
+   <button>Like
+      <script>   alert("¡Has dado me gusta!")
+   $("p").on("click", function() {
+     alert("clicked!")
+   });
+   </script></button>
+  </article>
+   <article>
+  <h2>AFICIONES</h2>
+  <p>Mi mayor afición es el deporte, sobretodo el fútbol. Además me interesa la música.</p>
+   <button>Like</button>
+   </article>
+    <article>
+  <h2>PLANES DE FUTURO</h2>
+  <p>Mis planes de futuro son estudiar una carrera relacionada con las matemáticas en Andalucía, hacer un máster lejos de mi comunidad y seguir estudiando más idiomas para poder tener más ventajas en el extranjero y así trabajar fuera de España.</p>
+   <button>Like</button>
+   </article>
+   <script>   alert("Javascript works!")
+   $("button").on("click", function() {
+     alert("clicked!")
+   });
+   </script>
+</body>
